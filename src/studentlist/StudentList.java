@@ -14,14 +14,13 @@ public class StudentList {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
         Student[] studentList = new Student[4];//change size before running
         Student s1 = new Student();
         s1.setName("Fagun Vankawala");
         s1.setId(1);
         Student s2 = new Student();
-        s2.setName("Palak Shah");
-        s2.setId(3);
+        s2.setName("Super Beans");
+        s2.setId(7);
         Student s3 = new Student();
         s3.setName("Megh Vankawala");
         s3.setId(5);
