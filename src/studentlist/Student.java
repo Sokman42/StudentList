@@ -11,7 +11,6 @@ package studentlist;
 public class Student {
     private String name;
     public int studentID;
-    private String address;
 
     public String getName() {
         return name;
