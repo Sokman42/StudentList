@@ -21,8 +21,19 @@ public class Student {
         this.name = name;
     }
     
+    public int getId() {
+        return studentID;
+    }
+    
     public void setId(int id) {
         this.studentID = id;
     }
-   
+    
+    public String getAddress() {
+        return address;
+    }
+    
+    public void setAddress(String addr){
+        this.address = addr;
+    }
 }
