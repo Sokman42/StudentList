@@ -14,4 +14,7 @@ public class PartTimeStudent extends Student{
     public void display() {
         System.out.println("Master Branch says wassupppp");
     }
+    public void printout() {
+        System.out.println("PartTimeStudent Branch says wagwannn");
+    }
 }
