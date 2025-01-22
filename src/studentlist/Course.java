@@ -25,9 +25,12 @@ public class Course {
     
     public void printClass() {
         for (Student s : students) {
-            System.out.print("Student Name: " + s.getName());
-            System.out.print("Student ID: " + s.getId());
-            System.out.print("Student Address: " + s.getAddress());
+            if (s != null) {
+                System.out.print("Student Name: " + s.getName() + "\n");
+                System.out.print("Student ID: " + s.getId() + "\n");
+                System.out.print("Student Address: " + s.getAddress() + "\n");
+                System.out.print("\n");
+            }
         }
         
     }

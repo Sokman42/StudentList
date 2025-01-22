@@ -36,7 +36,14 @@ public class StudentList {
         for (Student s : studentList) {
             System.out.println("ID: " + s.studentID + " | Name: " + s.getName());
         }
-
-    }
+        
+        Course java = new Course();
+        java.enrollStudent(s1);
+        java.enrollStudent(s4);
+        java.enrollStudent(s3);
+        java.enrollStudent(s2);
+        
+        java.printClass();
+    }   
 
 }
