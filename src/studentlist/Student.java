@@ -6,7 +6,8 @@ package studentlist;
 
 /**
  *
- * @author fagun at 12/05/2024
+ * @author fagun
+ * Date: Jan 22 2025
  */
 public class Student {
     private String name;
